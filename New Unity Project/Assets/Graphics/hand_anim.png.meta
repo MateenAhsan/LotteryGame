@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 87f39198d70cca644848b72ca713ec6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2145938820599918260
+    second: hand_anim_0
+  - first:
+      213: 1188958679921232389
+    second: hand_anim_1
+  - first:
+      213: -508105920718871594
+    second: hand_anim_2
+  - first:
+      213: 6649908980268903469
+    second: hand_anim_3
+  - first:
+      213: 8996152336605664341
+    second: hand_anim_4
+  - first:
+      213: 6699982459036456165
+    second: hand_anim_5
+  - first:
+      213: 3092438022598825264
+    second: hand_anim_6
+  - first:
+      213: 3592857585080231875
+    second: hand_anim_7
+  - first:
+      213: 3851923209131934820
+    second: hand_anim_8
+  - first:
+      213: -2362549075922112627
+    second: hand_anim_9
+  - first:
+      213: 53433772085372589
+    second: hand_anim_10
+  - first:
+      213: -3450542032756128982
+    second: hand_anim_11
+  - first:
+      213: -4219525226723450651
+    second: hand_anim_12
+  - first:
+      213: 8029668186586817110
+    second: hand_anim_13
+  - first:
+      213: -3720393274203817554
+    second: hand_anim_14
+  - first:
+      213: -2029558543687338360
+    second: hand_anim_15
+  - first:
+      213: 4060119076987220933
+    second: hand_anim_16
+  - first:
+      213: -574765263280465067
+    second: hand_anim_17
+  - first:
+      213: -297573121979263626
+    second: hand_anim_18
+  - first:
+      213: 3350061474690737203
+    second: hand_anim_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hand_anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2687ead60b6f36044bab71d993f0a907
+      internalID: -2145938820599918260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 289
+        width: 149
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816cf2419a5b95441923e88bf1daf17e
+      internalID: 1188958679921232389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 292
+        width: 148
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc355869cd9b2a34eb046419292f9844
+      internalID: -508105920718871594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 295
+        width: 148
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1494fb7b4a732846be8af525f65f7c7
+      internalID: 6649908980268903469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_4
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 301
+        width: 149
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8494bc0fab42e34e9dcc0e12e019385
+      internalID: 8996152336605664341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_5
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 304
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b9638aab6268d478cd6ca211131189
+      internalID: 6699982459036456165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_6
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 310
+        width: 151
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabb62228ae791a45a603c8de971c61d
+      internalID: 3092438022598825264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_7
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 313
+        width: 150
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c7701745ed4ca47ae1fb3775606677
+      internalID: 3592857585080231875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_8
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 317
+        width: 151
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c651c3391bf5c614483e4b2be4375bbc
+      internalID: 3851923209131934820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_9
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 319
+        width: 151
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2111b217108e0848bbe09a1106c381e
+      internalID: -2362549075922112627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 152
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb184faf1afc294b88932f57a7c5b33
+      internalID: 53433772085372589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 35
+        width: 151
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b066a5401a831c143b43b438b2f91952
+      internalID: -3450542032756128982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 33
+        width: 150
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99804d99c610acc49a7fe1792a988f6c
+      internalID: -4219525226723450651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 29
+        width: 149
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e1091899d0a9b47a7e4912c52285b0
+      internalID: 8029668186586817110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_14
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 26
+        width: 149
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f816c51e7f7b843b4049958e91b3ed
+      internalID: -3720393274203817554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 20
+        width: 150
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b0512786e43a74896b29ca44b2a317
+      internalID: -2029558543687338360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_16
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 17
+        width: 151
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c5a7bfdf637784dbb7ab7679bc5242
+      internalID: 4060119076987220933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_17
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 11
+        width: 147
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72478d35314df8d40b2285bc5572ae01
+      internalID: -574765263280465067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_18
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 8
+        width: 148
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a570fd491a0a82049b67af649fa4a982
+      internalID: -297573121979263626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand_anim_19
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 5
+        width: 149
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17692c2f910ac74ab07118a6f80d4f8
+      internalID: 3350061474690737203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
