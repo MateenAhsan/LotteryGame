@@ -6,15 +6,17 @@ using System;
 
 public class MainScreen : MonoBehaviour
 {
-	public GameObject[] AllScreens,AllButtons,SelectedGamePlayNumbers,Prizes,PickedOutNumbersShow;
+	public GameObject[] AllButtons,SelectedGamePlayNumbers,Prizes,PickedOutNumbersShow;
 	public GameObject SettingButton,ParentButton,LetsPlay,StartTextScreen,MatchedImage,Redeem,HomeButton,RedeemButton,Hand;
 	public Animator SettingAnim;
 	public Sprite NewSprite,OldSprite;
 	int LimitNumber,Rem,Temp;
-	public int[] SelectedNumbers,PickedOutNumbers;
+	public int[] SelectedNumbers;
 	public Text NumRemText,MatchedText;
-	int rand,MatchedNumbers;
+	public int rand,MatchedNumbers;
 	bool AlreadyAdded;
+	public OutCome OC;
+
     // Start is called before the first frame update
     void Start()
 	{
@@ -22,7 +24,7 @@ public class MainScreen : MonoBehaviour
 		Rem = 0;
 		Temp = 0;
 		LimitNumber = MatchedNumbers = 0;
-		MainMenu ();
+
 		SettingAnim = SettingButton.GetComponent<Animator>();
     }
 
@@ -57,62 +59,11 @@ public class MainScreen : MonoBehaviour
 
 	}
 
-	public void MainMenu(){
-		for (int i = 0; i < AllScreens.Length; i++) {
-			if (i == 0)
-				AllScreens [i].SetActive (true);
-			else
-				AllScreens [i].SetActive (false);
-		}
-	}
-
-	public void Picknumbers(){
-		if (AllScreens [2].activeSelf) {
-			AllScreens [3].SetActive (false);
-		}
-		else{
-		for (int i = 0; i < AllScreens.Length; i++) {
-			if (i == 1)
-				AllScreens [i].SetActive (true);
-			else
-				AllScreens [i].SetActive (false);
-		}
-	}
-	}
-
-	public void Gameplay(){
-		Array.Sort(SelectedNumbers);
-		for (int i = 0; i < AllScreens.Length; i++) {
-			if (i == 2)
-				AllScreens [i].SetActive (true);
-			else
-				AllScreens [i].SetActive (false);
-		}
-		GamePlayNumbers ();
-	}
-
-	public void Paytable(){
-		for (int i = 0; i < AllScreens.Length; i++) {
-			if (i == 3)
-				AllScreens [i].SetActive (true);
-			else
-				AllScreens [i].SetActive (false);
-		}
-	}
-
 	public void Setting(){
 		if (SettingAnim.GetBool ("SettingOption") == false)
 			SettingAnim.SetBool ("SettingOption", true);	
 		else
 			SettingAnim.SetBool ("SettingOption", false);
-	}
-
-	public void OpenPayTable(){
-		AllScreens [3].SetActive (true);
-	}
-
-	public void ClosePayTable(){
-		AllScreens [3].SetActive (false);
 	}
 
 	public void GamePlayNumbers(){
@@ -131,15 +82,16 @@ public class MainScreen : MonoBehaviour
 		if (Temp <= 7) {
 			rand = UnityEngine.Random.Range (1, 20);
 			for (int i = 0; i < 8; i++) {
-				if (rand == PickedOutNumbers [i]) {
+				if (rand == OC.PickedOutNumbers [i]) {
 					AlreadyAdded = true;
 				} 
 			}
 			if (!AlreadyAdded) {
-				PickedOutNumbers [Temp] = rand;
+				OC.PickedOutNumbers [Temp] = rand;
 				PickedOutNumbersShow [Temp].transform.GetChild(0).GetComponent<Text>().text = rand.ToString();
 				Temp++;
-				MatchCheck ();
+				print ("Matched");
+				OC.MatchCheck ();
 			} else {
 				AlreadyAdded = false;
 				PickRandom ();
@@ -160,20 +112,20 @@ public class MainScreen : MonoBehaviour
 			HomeButton.SetActive (true);
 	}
 
-	void MatchCheck(){
-		for (int i = 0; i < 8; i++) {
-			if (rand == SelectedNumbers [i]) {
-				MatchedImage.SetActive (true);
-				MatchedImage.transform.GetChild(0).GetComponent<Text>().text = rand.ToString();
-				Invoke ("HideMatch", 1.0f);
-				MatchedNumbers++;
-			} 
-		}
-	}
-
-	void HideMatch(){
-		MatchedImage.SetActive (false);
-	}
+//	void MatchCheck(){
+//		for (int i = 0; i < 8; i++) {
+//			if (rand == SelectedNumbers [i]) {
+//				MatchedImage.SetActive (true);
+//				MatchedImage.transform.GetChild(0).GetComponent<Text>().text = rand.ToString();
+//				Invoke ("HideMatch", 1.0f);
+//				MatchedNumbers++;
+//			} 
+//		}
+//	}
+//
+//	void HideMatch(){
+//		MatchedImage.SetActive (false);
+//	}
 
 	public void HomeButtonF(){
 		Application.LoadLevel (Application.loadedLevel);
